@@ -9,7 +9,7 @@ ul {
 }
 
 li {
-	margin-bottom: 10px;
+	margin-bottom: 10px; /* This is to add spacing between the items */
 	padding-right: 20px;
 	padding-left: 20px;
 }
@@ -19,27 +19,27 @@ ul li::before {
 }
 
 #front {
-	font-family: Arial, sans-serif; !important;
+	font-family: Arial, sans-serif; !important; /* How your question paper may look/What looks formal to you */
 	color: black;
 }
 
 #back {
-	font-family: Segoe Script, Lucida Handwriting, Chalkboard SE, Comic Sans MS;
+	font-family: Segoe Script, Lucida Handwriting, Chalkboard SE, Comic Sans MS; /* Whatever your handwriting best matches */
 	color: darkblue;
 }
 
 .box {
-    width: 500px;; /* Adjust width as needed */
-    height: 300px; /* Make the box square */
-    border: 2px solid #000; /* Border style */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-		margin: 150px auto;
-	padding-right: 40px;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5); /* Minimum blur */
-	overflow: auto;
+width: 500px;; /* The width of the card */
+height: 300px; /* The height of the card */
+border: 2px solid #000; /* Disable if you want to */
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 150px auto;
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
+box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5);
+overflow: auto;
 }

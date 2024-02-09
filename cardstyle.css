@@ -1,0 +1,45 @@
+.card {
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	margin-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+#front {
+	font-family: Arial, sans-serif; !important;
+	color: black;
+}
+
+#back {
+	font-family: Segoe Script, Lucida Handwriting, Chalkboard SE, Comic Sans MS;
+	color: darkblue;
+}
+
+.box {
+    width: 500px;; /* Adjust width as needed */
+    height: 300px; /* Make the box square */
+    border: 2px solid #000; /* Border style */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+		margin: 150px auto;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5); /* Minimum blur */
+	overflow: auto;
+}

@@ -3,11 +3,14 @@ Hey there. Are you also a fan of keeping things traditional, and a fan of CSS li
 
 This git contains two files: `cardsetup.html` and `cardstyle.css`. `cardsetup.html` was quite a useless file, but it was just to show you how to structure things if you're a beginner. Feel free to tinker around with the `cardstyle.css` file!
 
-# About me
-I really liked the concept of paper flashcards, but honestly, anything physically (compared to digitally) is always a lot to handle. You always have to remember where you kept things, and you have to ensure it doesn't get damaged, and also a find a way to bundle them all into a deck!
+# Installation and setup
+**Do NOT download any files!**
+1. View the raw file for HTML's setup
+2. Copy the code for the Front and Back structures
+3. Paste it in the card style editor in Anki
 
-Since that dilemma, I found Anki, a free solution with so much flexibility! I had to jump at the chance.
-However, I do really like skeuomorphic design (something close to it) and I wanted to replicate the design we usually find on paper cards.
+4. View the raw file for CSS setup
+5. Copy the code and paste it in the styles
+6. Customise to your liking
 
-#Too much blabber
-Ok bye.
+Donezo! Enjoy :)
